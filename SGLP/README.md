@@ -1,4 +1,6 @@
 ## Sparse Group Lasso Projection (SGLP) problem
+	
+relevant files:
 
 	sglp.c
 	sglp_admm.m
@@ -7,10 +9,14 @@
 
 ## Constrained Sparse Group Lasso Problem (CSGLP)
 
+relevant files:
+
 	sglLeastC.m
 	sglLeastC_admm.m
 
 ## DC programming for truncated norm
+
+relevant files:
 
 	trunc_sglp.c
 	trunc_sglLeastC.m
