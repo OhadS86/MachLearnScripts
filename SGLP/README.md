@@ -16,11 +16,12 @@
 # Usage
 The SLEP package is required. You may download the latest version at http://www.public.asu.edu/~jye02/Software/SLEP/.
 Compile the c files using ordinary mex tool:
+
 	mex sglp.c/glLeast.c/trunc_sglp.c
  
 
 
-
+ 
 	
 	
 	
