@@ -63,7 +63,7 @@ for itr = 3 : maxIter
 %     end
         
     while true
-        x = sght(x_cur - g_cur/L, ind, s1, s2);
+        x = sght_exclusive(x_cur - g_cur/L, ind, s1, s2, upper);
         ax = A * x;
         f = 0.5 * norm(ax - y, 2)^2;
         
